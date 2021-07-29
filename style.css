@@ -2,6 +2,10 @@
 body{
     font-family: 'Poppins', sans-serif !important;
 }
+.rote:hover{
+    transform: rotatey(180deg);
+    transition: 3s;
+}
 h1,h2{
     font-size: 48px;
 }
