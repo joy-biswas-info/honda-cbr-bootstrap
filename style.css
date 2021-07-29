@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .header-bg{
@@ -19,7 +19,7 @@ a{
 .p-color{
     color: #eb4f29;
 }
-.featured-paragraph::after{
+.bar::after{
     content: "";
     display: block;
     background-color: #eb4f29;
@@ -37,10 +37,39 @@ a{
     background-color: #eb4f29;
     color: #fff;
 }
+.btn-color-1{
+    border: 2px solid #E76F51;
+}
+.btn-color-1:hover,.button:hover{
+    background-color:#eb4f29;
+    color: #fff;
+}
 .grayscle{
     filter: grayscale(100%);
 }
+.fa-star{
+    color: #eb4f29;
+}
+label{
+    font-size: 20px;
+}
+input,.button,textarea{
+    width: 300px;
+    padding: 10px;
+    border:2px solid #E76F51;
+    border-radius: 10px;
+    margin: 10px 0;
+}
 
+footer{
+    color: #fff;
+}
 .app{
     margin: 10px 0;
+}
+.footer-nav li{
+    margin:20px;
+}
+.app{
+    width: 200px;
 }
