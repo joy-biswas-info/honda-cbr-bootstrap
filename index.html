@@ -12,7 +12,7 @@
 
   <body>
     <!-- Header_start_Here -->
-    <header class="header-bg">
+    <header class="header-bg my-4">
       <!-- navigation -->
       <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -64,7 +64,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                      Offers may vary by region. Enter your zip code to find the best deals near you. Get Up To 100% Cashback!<br> Condition Apply
+                    Offers may vary by region. Enter your zip code to find the best deals near you. Get Up To 100% Cashback!<br> Condition Apply
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -86,8 +86,8 @@
     <!-- Main_Start -->
     <main>
       <!-- Featured_Bike_section_Start -->
-      <section id="featured">
-        <div class="container my-4">
+      <section id="featured" class="my-4">
+        <div class="container">
           <div class="featured-bike text-center">
             <h2 class="fw-bold">
               Featured <span class="p-color"> Bikes 2021</span>
@@ -118,8 +118,8 @@
             <h2 class="fw-bold text-center featured-paragraph"> Latest <span class="p-color">News</span> </h2>
             <p></p>
           </div>
-          <div class="row">
-            <div class="news col-lg-4 col-sm-12 p-4">
+          <div class="row justify-content-between">
+            <div class="news col-lg-4 col-sm-12 p-2">
               <img src="images/bike-1.png" alt="" class="img-fluid">
               <div class="details">
                 <h4>Ducati Xdavils-73</h4>
@@ -127,7 +127,7 @@
               </div>
               <button class="btn btn-color">Read More</button>
             </div>
-            <div class="news col-lg-4 col-sm-12 p-4">
+            <div class="news col-lg-4 col-sm-12 p-2">
               <img src="images/bike-2.png" alt="" class="img-fluid">
               <div class="details">
                 <h4>Motorcycle and Scooter</h4>
@@ -135,7 +135,7 @@
               </div>
               <button class="btn btn-color">Read More</button>
             </div>
-            <div class="news col-lg-4 col-sm-12 p-4">
+            <div class="news col-lg-4 col-sm-12 p-2">
               <img src="images/bike-3.png" alt="" class="img-fluid">
               <div class="details">
                 <h4>2021 Honda CBR</h4>
@@ -146,6 +146,153 @@
           </div>
         </div>
       </section>
+
+      <!-- Testimonial_Section_Start -->
+
+      <section id="testimonial" class="container my-4">
+        <div>
+          <h2 class="fw-bold text-center">
+            Our Happy<span class="p-color"> Clients Says </span>
+          </h2>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-sm-12 col-lg-4 col-md-6 my-4">
+            <div class="card p-4 shadow-sm">
+              <img src="images/user-1.png" class="card-img-top m-auto" alt="...">
+              <div class="card-body text-center">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <h5 class="text-primary">Regina Miles</h5>
+                <h5>Banker</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 col-md-6 my-4">
+            <div class="card shadow-sm p-4">
+              <img src="images/user-2.png" class="card-img-top m-auto" alt="...">
+              <div class="card-body text-center">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <h5 class="text-primary">Regina Miles</h5>
+                <h5>Banker</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 col-md-6 my-4">
+            <div class="card p-4 shadow-sm">
+              <img src="images/user-3.png" class="card-img-top m-auto" alt="...">
+              <div class="card-body text-center">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <h5 class="text-primary">Regina Miles</h5>
+                <h5>Banker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial_Section_End -->
+
+      <!-- FAQ_Section_Start -->
+      <section class="container my-4">
+        <div class="faq">
+          <h2 class="text-center fw-bold">Friquently<span class="p-color"> Ask Question </span>
+          </h2>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6 col-lg-6 w-28">
+            <img class="img-fluid" src="images/faq.png" alt="cartoon">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item mt-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Which One Is The Best Bike On 2021
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item mt-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Can i get Discound If I but The CBD 300R
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item mt-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+              <div class="accordion-item mt-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What Is The Minimum Discount Ammount
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- FAQ_Section_End -->
+
+      <footer class="footer-bg py-4">
+        <div class="container row align-items-center">
+          <div class="col-12 col-md-6 col-lg-6">
+            <ul class="nav footer-nav">
+              <li>Download Now</li>
+              <li>License</li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Feature</li>
+              <li>pricing</li>
+              <li>Help</li>
+              <li>Contact</li>
+            </ul>
+            <All>© 2021 bike. All rights reserved</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 text-center">
+            <h5 class="fw-bold">Get app</h5>
+            <img class="app" src="images/playstor.jpeg" alt="">
+            <img class="app" src="images/apple.png" alt="">
+           </div>
+
+        </div>
+      </footer>
 
 
     </main>
@@ -160,6 +307,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f51a73ebd4.js" crossorigin="anonymous"></script>
   </body>
 
 </html>
