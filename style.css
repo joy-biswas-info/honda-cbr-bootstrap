@@ -2,7 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif !important;
 }
-
+h1,h2{
+    font-size: 48px;
+}
 .header-bg{
     background-color: #264653;
 }
@@ -64,12 +66,15 @@ input,.button,textarea{
 footer{
     color: #fff;
 }
-.app{
-    margin: 10px 0;
-}
+
 .footer-nav li{
     margin:20px;
 }
 .app{
     width: 200px;
+    margin: 10px 0;
 }
+
+/*=========================
+ End 
+ ====================*/
