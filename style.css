@@ -46,6 +46,9 @@ a{
     background-color:#eb4f29;
     color: #fff;
 }
+.news,.card{
+    width: 370px;
+}
 .grayscle{
     filter: grayscale(100%);
 }
