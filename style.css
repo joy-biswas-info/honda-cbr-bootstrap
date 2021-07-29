@@ -1,0 +1,14 @@
+.header-bg{
+    background-color: #264653;
+}
+#banner{
+    color:#fff;
+}
+.btn-color{
+    background-color: #E76F51;
+    color: #fff;
+}
+.btn-color:hover{
+    background-color: #eb4f29;
+    color: #fff;
+}
